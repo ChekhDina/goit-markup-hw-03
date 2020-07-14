@@ -426,6 +426,9 @@ html {
 .footer-main .logo {
   margin-bottom: 20px;
 }
+.footer-main .logo span {
+  color: #ffffff;
+}
 .footer-address-link-info {
   font-weight: normal;
   font-size: 14px;
