@@ -398,18 +398,35 @@ html {
   margin-bottom: 50px;
 }
 .customers-item {
+  width: 1170px;
   padding: 0;
   margin: 0;
   display: flex;
-  justify-content: space-around;
+}
+.customers-list:not(:last-child) {
+  margin-right: 30px;
+}
+.customers-list {
+  justify-content: space-between;
+  border: 1px solid #afb1b8;
+  width: 170px;
+  height: 90px;
+  border-radius: 4px;
+}
+.customers-img {
+  padding-bottom: 19px;
+  padding-top: 19px;
+  padding-right: 65px;
+  padding-left: 65px;
 }
 
 /*FOOTER*/
 .footer {
-  width: 1600px;
+  width: 1300px;
   background-color: #2f303a;
 }
 .footer-main {
+  width: 1200px;
   display: flex;
   margin: auto;
   padding-top: 60px;
@@ -423,7 +440,7 @@ html {
   font-style: normal;
 }
 
-.footer-main .logo {
+.logo-footer .logo {
   margin-bottom: 20px;
 }
 .footer-main .logo span {
