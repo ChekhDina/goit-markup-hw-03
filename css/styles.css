@@ -33,7 +33,7 @@ html {
 .container {
   display: flex;
   justify-content: space-between;
-  width: 1170px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-right: auto;
@@ -387,7 +387,6 @@ html {
 /*CUSTOMERS*/
 .costomers-team {
   width: 1200px;
-  display: block;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
@@ -406,16 +405,17 @@ html {
 }
 
 /*FOOTER*/
-.section-footer {
+.footer {
   width: 1600px;
   background-color: #2f303a;
 }
 .footer-main {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
+  display: flex;
+  margin: auto;
   padding-top: 60px;
   padding-bottom: 60px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .footer-address {
   margin: 0;
@@ -429,9 +429,7 @@ html {
 .footer-main .logo span {
   color: #ffffff;
 }
-.footer-main {
-  display: flex;
-}
+
 .logo-address {
   margin-right: 69px;
 }
