@@ -429,6 +429,27 @@ html {
 .footer-main .logo span {
   color: #ffffff;
 }
+.footer-main {
+  display: flex;
+}
+.logo-address {
+  margin-right: 69px;
+}
+.join {
+  margin-right: 94px;
+}
+.join .social-link {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  justify-content: space-between;
+}
+
+.add {
+  display: block;
+  margin-bottom: 20px;
+}
+
 .footer-address-link-info {
   font-weight: normal;
   font-size: 14px;
