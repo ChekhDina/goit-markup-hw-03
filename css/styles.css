@@ -256,7 +256,7 @@ html {
   margin: 0 auto;
 }
 .example-title {
-  width: 1170px;
+  width: 1200px;
   margin: 0;
   margin-bottom: 50px;
   text-align: center;
@@ -420,18 +420,21 @@ html {
 
 /*FOOTER*/
 .footer {
-  width: 1600px;
+  display: block;
+
   background-color: #2f303a;
 }
 .footer-main {
   width: 1200px;
   display: flex;
-  margin: auto;
-  padding-top: 60px;
-  padding-bottom: 60px;
   padding-left: 15px;
   padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
+
 .footer-address {
   margin: 0;
   padding: 0;
