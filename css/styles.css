@@ -199,6 +199,7 @@ html {
   padding-bottom: 25px;
   padding-left: 100px;
 }
+
 .section {
   width: 1200px;
   display: block;
@@ -245,7 +246,7 @@ html {
   width: 1200px;
   margin: 0 auto;
   padding-top: 47px;
-  padding-bottom: 47px;
+  padding-bottom: 94px;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -309,8 +310,8 @@ html {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-  padding-bottom: 47px;
-  padding-top: 47px;
+  padding-bottom: 94px;
+  padding-top: 94px;
 }
 .team-title {
   margin-top: 0;
@@ -389,7 +390,7 @@ html {
   padding-left: 15px;
   padding-right: 15px;
   padding-bottom: 94px;
-  padding-top: 47px;
+  padding-top: 94px;
 }
 .customers-title {
   margin-top: 0;
@@ -518,7 +519,7 @@ html {
 .filter-list {
   display: flex;
   width: 1170px;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
   padding: 0;
   justify-content: center;
   margin-top: 0;
