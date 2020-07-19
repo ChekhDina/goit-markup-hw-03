@@ -154,6 +154,7 @@ html {
   background-image: url(../img/Header.svg);
   background-position: center;
   height: 600px;
+  width: 1600px;
 }
 .hero-title {
   margin-top: 0;
